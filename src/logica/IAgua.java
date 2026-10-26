@@ -1,6 +1,6 @@
 package logica;
 
-public class IAgua {
+public interface IAgua {
 
     public void atacarHidrobomba();
     public void atacarBurbuja();

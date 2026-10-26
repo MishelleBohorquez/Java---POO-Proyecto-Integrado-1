@@ -1,8 +1,8 @@
 package logica;
 
-public class IElectrico {
+public interface IElectrico {
 
-    public void atacarImpactruenp();
+    public void atacarImpactrueno();
     public void atacarPunioTrueno();
 
 }

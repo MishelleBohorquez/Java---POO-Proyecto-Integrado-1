@@ -1,6 +1,6 @@
 package logica;
 
-public class IPlanta {
+public interface IPlanta {
 
     public void atacarDrenaje();
     public void atacarParalizar();

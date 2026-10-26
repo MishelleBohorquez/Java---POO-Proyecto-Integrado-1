@@ -1,6 +1,6 @@
 package logica;
 
-public class Squirtle extends Pokemon{
+public class Squirtle extends Pokemon implements IAgua{
 
     @Override
     protected void atacarPlacaje() {
@@ -17,4 +17,18 @@ public class Squirtle extends Pokemon{
         System.out.println("Squirtle: Ataque mordisco");
     }
 
+    @Override
+    public void atacarHidrobomba() {
+        System.out.println("Squirtle: Ataque hidrobomba");
+    }
+
+    @Override
+    public void atacarBurbuja() {
+        System.out.println("Squirtle: Ataque burbuja");
+    }
+
+    @Override
+    public void atacarPistolaAgua() {
+        System.out.println("Squirtle: Ataque pistola de agua");
+    }
 }

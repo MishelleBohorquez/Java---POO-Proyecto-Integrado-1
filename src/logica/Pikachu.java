@@ -1,6 +1,6 @@
 package logica;
 
-public class Pikachu extends Pokemon{
+public class Pikachu extends Pokemon implements IElectrico{
 
     @Override
     protected void atacarPlacaje() {
@@ -17,4 +17,13 @@ public class Pikachu extends Pokemon{
         System.out.println("Pikachu: Ataque mordisco");
     }
 
+    @Override
+    public void atacarImpactrueno() {
+        System.out.println("Pikachu: Ataque impacto de trueno");
+    }
+
+    @Override
+    public void atacarPunioTrueno() {
+        System.out.println("Pikachu: Ataque puñi de trueno");
+    }
 }

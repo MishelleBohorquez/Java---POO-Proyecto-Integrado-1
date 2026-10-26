@@ -1,6 +1,6 @@
 package logica;
 
-public class IFuego {
+public interface IFuego {
 
     public void atacarPunioFuego();
     public void atacarLanzaLlamas();

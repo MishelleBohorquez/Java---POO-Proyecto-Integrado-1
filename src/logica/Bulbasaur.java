@@ -1,6 +1,6 @@
 package logica;
 
-public class Bulbasaur extends Pokemon{
+public class Bulbasaur extends Pokemon implements IPlanta {
 
     @Override
     protected void atacarPlacaje() {
@@ -17,4 +17,13 @@ public class Bulbasaur extends Pokemon{
         System.out.println("Bulbasaur: Ataque mordisco");
     }
 
+    @Override
+    public void atacarDrenaje() {
+        System.out.println("Bulbasaur: Ataque drenaje");
+    }
+
+    @Override
+    public void atacarParalizar() {
+        System.out.println("Bulbasaur: Ataque paralizar");
+    }
 }
