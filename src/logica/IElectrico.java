@@ -2,7 +2,7 @@ package logica;
 
 public interface IElectrico {
 
-    public void atacarImpactrueno();
+    public void atacarImpacTrueno();
     public void atacarPunioTrueno();
 
 }
