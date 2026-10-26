@@ -2,6 +2,9 @@ package logica;
 
 public class Charmander extends Pokemon implements IFuego{
 
+    public Charmander() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println("Charmander: Ataque placaje");

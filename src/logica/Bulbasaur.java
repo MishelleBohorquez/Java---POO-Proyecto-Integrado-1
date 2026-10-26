@@ -2,6 +2,9 @@ package logica;
 
 public class Bulbasaur extends Pokemon implements IPlanta {
 
+    public Bulbasaur() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println("Bulbasaur: Ataque placaje");
